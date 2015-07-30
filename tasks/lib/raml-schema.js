@@ -88,9 +88,3 @@ function schemaFilesInRamlFile(ramlFile, callback) {
 }
 
 module.exports.schemaFilesInRamlFile = schemaFilesInRamlFile;
-
-if (require.main === module) {
-    schemaFilesInRamlFile('skumapper.raml', function (r) { console.log(r); });
-    // schemaFilesInRamlFile('../provisioning-service/docs/api_contract/provisioning-ui-api.raml', function (r) { console.log(r); });
-    // schemaFilesInRamlFile('../../public-ticket-api/api/public-ticket.raml');
-}

@@ -28,7 +28,7 @@ module.exports = function (grunt) {
         }),
             done = this.async(), srcFile;
 
-        grunt.config(['raml2html', 'all', 'files', 'public/skumapper.html'], [ramlFileName()]);
+        grunt.config(['raml2html', 'all', 'files', 'public/index.html'], [ramlFileName()]);
         rs.schemaFilesInRamlFile(ramlFileName(), function (sfs) {
             grunt.config('scan_raml_project.schemaFiles', sfs);
             sfs.forEach(function (schemaFile) {
