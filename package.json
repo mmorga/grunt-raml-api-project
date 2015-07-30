@@ -1,7 +1,7 @@
 {
   "name": "grunt-raml-api-project",
   "description": "Adds tasks to manage validating json schema, raml, and generating html for raml.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/mmorga/grunt-raml-api-project",
   "author": {
     "name": "Mark Morga",
